@@ -82,6 +82,8 @@ public class NotePanel extends JPanel {
 
             key.append(iterator.next());
 
+            System.out.println(key);
+
             notes = myMap.get(key.toString());
 
             if(key.toString().equals(calendar.get(Calendar.YEAR) + " 0" + (calendar.get(Calendar.MONTH) + 1) + " 0" + calendar.get(Calendar.DAY_OF_MONTH)) || key.toString().equals(calendar.get(Calendar.YEAR) + " 0" + (calendar.get(Calendar.MONTH) + 1) + " " + calendar.get(Calendar.DAY_OF_MONTH)) || key.toString().equals(calendar.get(Calendar.YEAR) + " " + (calendar.get(Calendar.MONTH) + 1) + " 0" + calendar.get(Calendar.DAY_OF_MONTH)) || key.toString().equals(calendar.get(Calendar.YEAR) + " " + (calendar.get(Calendar.MONTH) + 1) + " " + calendar.get(Calendar.DAY_OF_MONTH))){
