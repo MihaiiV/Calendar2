@@ -19,7 +19,7 @@ public class AddEventPanel extends JPanel {
 
     private final TreeMap<String, ArrayList<String>> map;
 
-    private File file;
+    private final File file;
 
     private JComboBox<Integer> day, year;
 

@@ -14,7 +14,7 @@ import static javax.swing.BoxLayout.Y_AXIS;
 public class TimePanel extends JPanel{
 
     private static final String[] monthName = {"January", "February",
-            "March", "April", "May", "June", "July",
+            "March", "Aprillllll", "May", "June", "July",
             "August", "September", "October", "November",
             "December"};
 
